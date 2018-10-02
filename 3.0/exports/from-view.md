@@ -30,10 +30,10 @@ It will convert an HTML table into an Excel spreadsheet. For example; `users.bla
     </tr>
     </thead>
     <tbody>
-    @foreach($users as $user)
+    @foreach($invoices as $invoice)
         <tr>
-            <td>{{ $user->name }}</td>
-            <td>{{ $user->email }}</td>
+            <td>{{ $invoice->name }}</td>
+            <td>{{ $invoice->email }}</td>
         </tr>
     @endforeach
     </tbody>
